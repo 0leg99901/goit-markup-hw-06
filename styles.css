@@ -1079,6 +1079,7 @@ background-color: #188CE8;
   -webkit-appearance:none;
   -moz-appearance:none;
     appearance:none;
+    
 }
 .checkbox_icon{
   display:inline-block;
@@ -1086,16 +1087,18 @@ background-color: #188CE8;
   height: 15px;
   background:#fff;
   border-radius: 2px;
-  outline: 2px solid black;
+  border: 2px solid black;
   margin-right: 8px;
-
+  
 }
 .checkbox:checked + .checkbox_icon{
   background-color:#2196F3;
-  outline: 2px solid #2196F3;
+  border-color:#2196F3 ;
+  border-radius: 2px;
   background-image: url(./images/check\ mark.svg);
   background-size: contain;
   background-origin: border-box;
   background-repeat:no-repeat;
+
 }
 
