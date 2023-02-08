@@ -50,10 +50,16 @@ border-radius: 4px;
 
 }
 .form_label{
-    position: absolute;
-    top: -20px;
-    left: 0;
+    display: inline-flex;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.166;
+    color: #757575;
 }
+
 .form-list__input{
     padding: 0;
     width: 100%;

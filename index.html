@@ -378,23 +378,24 @@
       </button>
       <form class="form">
         <p class="form_text">Залиште свої дані, ми вам передзвонимо</p>
-            <ul class="form_list">
-          <li class="form-list__item">
+        <div class="form_list">
+          <label class="form_label" for="user_name">Ім'я</label>
+          <span class="form-list__item">
                 <input class="form-list__input" type="text" name="name" id="user_name">
                 <svg class="form_icon" width="12" height="12"><use href="./images/icons.svg#man" width="12" height="12"></use></svg>
-          <label class="form_label" for="user_name">Ім'я</label>
-        </li>
-          <li class="form-list__item">
+          </span>
+          <label class="form_label" for="user_tel">Телефон</label>
+          <span class="form-list__item">
             <input class="form-list__input"  type="tel" name="tel" id="user_tel">
             <svg class="form_icon" width="12" height="12"><use href="./images/icons.svg#tel_2" width="12" height="12"></use></svg>
-            <label class="form_label" for="user_tel">Телефон</label>
-        </li>
-            <li class="form-list__item">
+          </span>
+          <label class="form_label" for="user_email_2"  >Пошта</label>
+            <span class="form-list__item">
                 <input class="form-list__input" type="email" name="email" id="user_email_2" >
                 <svg class="form_icon" width="12" height="12"><use href="./images/icons.svg#email_2" width="12" height="12"></use></svg>
-                <label class="form_label" for="user_email_2"  >Пошта</label>
-            </li>
-            </ul>
+            </span>
+          </div>
+           
         <div class="form_coment">
             <label class="form_label" for="user_coment" >Коментар</label>
             <textarea class="form_textarea" id="user_coment" name="coment" rows="5" placeholder="Введіть текст"></textarea>
