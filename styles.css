@@ -930,7 +930,7 @@ height: 100%;
 .form_text{
   padding: 0;
   margin: 0;
-  padding-bottom: 12px;
+  margin-bottom:12px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -1048,7 +1048,6 @@ line-height: 1.71px;
 letter-spacing: 0.03em;
   display: flex;
   position: relative;
-  margin-bottom: 30px;
   justify-content: center;
   align-items: center;
 
@@ -1092,21 +1091,25 @@ background-color: #188CE8;
 }
 .label{
   display: block;
+  max-height: 24px;
+  margin-bottom: 30px;
  
 }
 .checkbox{
-  display: flex;
   -webkit-appearance:none;
   -moz-appearance:none;
     appearance:none;
-    transform:translate(0%,100%);
+    transform:translate(122%,0%);
+    margin: 0;
     width: 16px;
     height: 15px;
+    
     
 }
 
 .checkbox_icon{
   display:inline-block;
+  margin: 0;
   width: 16px;
   height: 15px;
   background:#fff;
